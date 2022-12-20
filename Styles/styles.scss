@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+$font-family:'Montserrat', 'Fraunces', serif;
+$bg-color: rgb(134, 83, 28);
+
+*{box-sizing:border-box};
+
+body{
+    font-family:$font-family;
+    background-color: $bg-color;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color:white;
+    border-radius: 20px;
+}
+
+.card #img2{
+    width: 50%;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    a { 
+     color: hsl(228, 45%, 44%); 
+}
+}
